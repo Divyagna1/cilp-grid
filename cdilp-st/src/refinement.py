@@ -58,9 +58,26 @@ class RefinementGenerator():
                         self.subs_var(clause) + self.subs_const(clause)))
         result = []
         for ref in refs:
-            if not '' in [str(arg) for arg in ref.head.terms]:
-                result.append(ref)
+            if '' in [str(arg) for arg in ref.head.terms]:
+                continue
+            if self._has_duplicate_vars(ref):
+                continue
+            if self._has_duplicate_atoms(ref):
+                continue
+            result.append(ref)
         return result
+
+    def _has_duplicate_vars(self, clause):
+        atoms = [clause.head] + clause.body
+        for atom in atoms:
+            vars_ = [str(v) for v in atom.all_vars()]
+            if len(vars_) != len(set(vars_)):
+                return True
+        return False
+
+    def _has_duplicate_atoms(self, clause):
+        atoms = [clause.head] + clause.body
+        return len(atoms) != len(set(atoms))
 
     def add_atom(self, clause):
         """
