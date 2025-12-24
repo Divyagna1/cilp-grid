@@ -21,7 +21,6 @@ class WindyLavaGridEnv(SCM):
         lava_cells: list[tuple[int, int]] | None = None,
         wind_strength: tuple[float, float, float, float, float] = (0.6, 0.1, 0.1, 0.1, 0.1),
         column_wind: dict[int, int] | None = None,
-        cell_wind: dict[tuple[int, int], tuple[int, int]] | None = None,
         step_penalty: float = -1.0,
         lava_penalty: float = -20.0,
         goal_reward: float = 0.0,
@@ -82,21 +81,13 @@ class WindyLavaGridEnv(SCM):
         if tuple(self._target_default) in self._lava_cells:
             raise ValueError("Target location cannot lie inside lava.")
 
-        self.column_wind = (
-            {
-                3: 1,
-                4: 1,
-                5: 1,
-                6: 2,
-                7: 2,
-                8: 1,
-            }
-            if column_wind is None
-            else dict(column_wind)
-        )
-        self.cell_wind = {
-            tuple(cell): np.array(push, dtype=int)
-            for cell, push in (cell_wind or {}).items()
+        self.column_wind = column_wind or {
+            3: 1,
+            4: 1,
+            5: 1,
+            6: 2,
+            7: 2,
+            8: 1,
         }
 
         assert render_mode is None or render_mode in self.metadata["render_modes"]
@@ -184,8 +175,7 @@ class WindyLavaGridEnv(SCM):
             strength = self.column_wind[int(self._agent_location[0])]
             column_push = np.array([0, -strength], dtype=int)
 
-        cell_push = self.cell_wind.get(tuple(self._agent_location), np.array([0, 0], dtype=int))
-        proposed_location = self._agent_location + direction + random_wind + column_push + cell_push
+        proposed_location = self._agent_location + direction + random_wind + column_push
         self._agent_location = np.clip(proposed_location, np.zeros(2, dtype=int), self._max_indices)
         self.steps_taken += 1
 

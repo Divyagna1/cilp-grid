@@ -1,0 +1,7217 @@
+[
+  {
+    "success": false,
+    "total_reward": -22.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 3
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            2,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 1,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      },
+      {
+        "observation": {
+          "agent": [
+            2,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            2,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 0,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 2
+        },
+        "step_index": 1
+      },
+      {
+        "observation": {
+          "agent": [
+            2,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 3
+        },
+        "step_index": 2
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -20.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 1
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 4,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -22.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 3
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            2,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 1,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      },
+      {
+        "observation": {
+          "agent": [
+            2,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            2,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 4,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 2
+        },
+        "step_index": 1
+      },
+      {
+        "observation": {
+          "agent": [
+            2,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 3
+        },
+        "step_index": 2
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -21.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 2
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 6.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 1,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 2
+        },
+        "step_index": 1
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -21.0,
+    "final_info": {
+      "distance": 3.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 2
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            2,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 1,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 3.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 2
+        },
+        "step_index": 1
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -31.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 12
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 3.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 2
+        },
+        "step_index": 1
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 3
+        },
+        "step_index": 2
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 4
+        },
+        "step_index": 3
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 0,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 5
+        },
+        "step_index": 4
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 4,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 6.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 6
+        },
+        "step_index": 5
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 7
+        },
+        "step_index": 6
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 8
+        },
+        "step_index": 7
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 9
+        },
+        "step_index": 8
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 0,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 10
+        },
+        "step_index": 9
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 1,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 3.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 11
+        },
+        "step_index": 10
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 0,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 12
+        },
+        "step_index": 11
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -20.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 1
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 4,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -21.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 2
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 4,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 2
+        },
+        "step_index": 1
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -23.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 4
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 6.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 6.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 2
+        },
+        "step_index": 1
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 6.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 3
+        },
+        "step_index": 2
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 1,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 4
+        },
+        "step_index": 3
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -27.0,
+    "final_info": {
+      "distance": 3.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 8
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 3.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 2
+        },
+        "step_index": 1
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            2,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 1,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 3
+        },
+        "step_index": 2
+      },
+      {
+        "observation": {
+          "agent": [
+            2,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            3,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 1,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 3.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 4
+        },
+        "step_index": 3
+      },
+      {
+        "observation": {
+          "agent": [
+            3,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            3,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 2.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 5
+        },
+        "step_index": 4
+      },
+      {
+        "observation": {
+          "agent": [
+            3,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            3,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 1.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 6
+        },
+        "step_index": 5
+      },
+      {
+        "observation": {
+          "agent": [
+            3,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            3,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 4,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 2.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 7
+        },
+        "step_index": 6
+      },
+      {
+        "observation": {
+          "agent": [
+            3,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            2,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 3.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 8
+        },
+        "step_index": 7
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -20.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 1
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 4,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -20.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 1
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 4,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -30.0,
+    "final_info": {
+      "distance": 3.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 11
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 2
+        },
+        "step_index": 1
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 4,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 6.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 3
+        },
+        "step_index": 2
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 6.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 4
+        },
+        "step_index": 3
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 6.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 5
+        },
+        "step_index": 4
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 6
+        },
+        "step_index": 5
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 0,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 7
+        },
+        "step_index": 6
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 1,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 8
+        },
+        "step_index": 7
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 3.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 9
+        },
+        "step_index": 8
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            2,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 1,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 10
+        },
+        "step_index": 9
+      },
+      {
+        "observation": {
+          "agent": [
+            2,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            2,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 3.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 11
+        },
+        "step_index": 10
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -20.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 1
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 0,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -24.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 5
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 2
+        },
+        "step_index": 1
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 4,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 6.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 3
+        },
+        "step_index": 2
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 4,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 6.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 4
+        },
+        "step_index": 3
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 1,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 5
+        },
+        "step_index": 4
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -20.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 1
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 0,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -21.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 2
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 4,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 2
+        },
+        "step_index": 1
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -20.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 1
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 0,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -21.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 2
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            2,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 1,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      },
+      {
+        "observation": {
+          "agent": [
+            2,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 2
+        },
+        "step_index": 1
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -26.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 7
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 3.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 2
+        },
+        "step_index": 1
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 3
+        },
+        "step_index": 2
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 4
+        },
+        "step_index": 3
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 5
+        },
+        "step_index": 4
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 1,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 6
+        },
+        "step_index": 5
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 4,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 7
+        },
+        "step_index": 6
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -20.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 1
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 4,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -24.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 5
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 6.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 4,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 6.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 2
+        },
+        "step_index": 1
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 0,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 6.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 3
+        },
+        "step_index": 2
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 6.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 4
+        },
+        "step_index": 3
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 1,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 5
+        },
+        "step_index": 4
+      }
+    ]
+  },
+  {
+    "success": true,
+    "total_reward": -10.0,
+    "final_info": {
+      "distance": 0.0,
+      "lava_hit": false,
+      "success": true,
+      "steps": 11
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            2,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 1,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      },
+      {
+        "observation": {
+          "agent": [
+            2,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            2,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 0,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 2
+        },
+        "step_index": 1
+      },
+      {
+        "observation": {
+          "agent": [
+            2,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            3,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 1,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 3.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 3
+        },
+        "step_index": 2
+      },
+      {
+        "observation": {
+          "agent": [
+            3,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            3,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 1,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 3.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 4
+        },
+        "step_index": 3
+      },
+      {
+        "observation": {
+          "agent": [
+            3,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            3,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 1,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 3.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 5
+        },
+        "step_index": 4
+      },
+      {
+        "observation": {
+          "agent": [
+            3,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            3,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 2.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 6
+        },
+        "step_index": 5
+      },
+      {
+        "observation": {
+          "agent": [
+            3,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            3,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 1,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 2.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 7
+        },
+        "step_index": 6
+      },
+      {
+        "observation": {
+          "agent": [
+            3,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            3,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 1.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 8
+        },
+        "step_index": 7
+      },
+      {
+        "observation": {
+          "agent": [
+            3,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            3,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 4,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 2.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 9
+        },
+        "step_index": 8
+      },
+      {
+        "observation": {
+          "agent": [
+            3,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            3,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 1.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 10
+        },
+        "step_index": 9
+      },
+      {
+        "observation": {
+          "agent": [
+            3,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            3,
+            3
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": 0.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 0.0,
+          "lava_hit": false,
+          "success": true,
+          "steps": 11
+        },
+        "step_index": 10
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -32.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 13
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 6.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 2
+        },
+        "step_index": 1
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 0,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 3
+        },
+        "step_index": 2
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 0,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 4
+        },
+        "step_index": 3
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 4,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 6.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 5
+        },
+        "step_index": 4
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 0,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 6.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 6
+        },
+        "step_index": 5
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 6.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 7
+        },
+        "step_index": 6
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 8
+        },
+        "step_index": 7
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 9
+        },
+        "step_index": 8
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 10
+        },
+        "step_index": 9
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 11
+        },
+        "step_index": 10
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 1,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 3.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 12
+        },
+        "step_index": 11
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 0,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 13
+        },
+        "step_index": 12
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -20.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 1
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 4,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -20.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 1
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 4,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -20.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 1
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 0,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -20.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 1
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 0,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -22.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 3
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 6.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 6.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 2
+        },
+        "step_index": 1
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 1,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 3
+        },
+        "step_index": 2
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -28.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 9
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 3.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 2
+        },
+        "step_index": 1
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 3
+        },
+        "step_index": 2
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 3.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 4
+        },
+        "step_index": 3
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 5
+        },
+        "step_index": 4
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 0,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 6
+        },
+        "step_index": 5
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 0,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 7
+        },
+        "step_index": 6
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 3.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 8
+        },
+        "step_index": 7
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 4,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 9
+        },
+        "step_index": 8
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -20.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 1
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 4,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -20.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 1
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 4,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -20.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 1
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 4,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -21.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 2
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 4,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 2
+        },
+        "step_index": 1
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -22.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 3
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            2,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 1,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      },
+      {
+        "observation": {
+          "agent": [
+            2,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            2,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 0,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 2
+        },
+        "step_index": 1
+      },
+      {
+        "observation": {
+          "agent": [
+            2,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 3
+        },
+        "step_index": 2
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -20.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 1
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 0,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -22.0,
+    "final_info": {
+      "distance": 3.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 3
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 0,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 2
+        },
+        "step_index": 1
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            2,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 1,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 3.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 3
+        },
+        "step_index": 2
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -21.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 2
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            2,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 1,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      },
+      {
+        "observation": {
+          "agent": [
+            2,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 2
+        },
+        "step_index": 1
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -20.0,
+    "final_info": {
+      "distance": 4.0,
+      "lava_hit": false,
+      "success": false,
+      "steps": 20
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 6.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 4,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 6.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 2
+        },
+        "step_index": 1
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 6.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 3
+        },
+        "step_index": 2
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 0,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 6.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 4
+        },
+        "step_index": 3
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 5
+        },
+        "step_index": 4
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 6
+        },
+        "step_index": 5
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 0,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 7
+        },
+        "step_index": 6
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 0,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 8
+        },
+        "step_index": 7
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            3
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 3.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 9
+        },
+        "step_index": 8
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            3
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 4,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 10
+        },
+        "step_index": 9
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 1,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 3.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 11
+        },
+        "step_index": 10
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 12
+        },
+        "step_index": 11
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 13
+        },
+        "step_index": 12
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 4,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 6.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 14
+        },
+        "step_index": 13
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 6.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 15
+        },
+        "step_index": 14
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 4,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 6.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 16
+        },
+        "step_index": 15
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 0,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 6.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 17
+        },
+        "step_index": 16
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 18
+        },
+        "step_index": 17
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 0,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 19
+        },
+        "step_index": 18
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 20
+        },
+        "step_index": 19
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -24.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 5
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            2,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 1,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      },
+      {
+        "observation": {
+          "agent": [
+            2,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            3,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 1,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 3.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 2
+        },
+        "step_index": 1
+      },
+      {
+        "observation": {
+          "agent": [
+            3,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            3,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 0,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 3.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 3
+        },
+        "step_index": 2
+      },
+      {
+        "observation": {
+          "agent": [
+            3,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            2,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 4
+        },
+        "step_index": 3
+      },
+      {
+        "observation": {
+          "agent": [
+            2,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 5
+        },
+        "step_index": 4
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -20.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 1
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 4,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -21.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 2
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 6.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 1,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 2
+        },
+        "step_index": 1
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -20.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 1
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 0,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -20.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 1
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 4,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -30.0,
+    "final_info": {
+      "distance": 3.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 11
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 6.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 6.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 2
+        },
+        "step_index": 1
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 4,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 6.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 3
+        },
+        "step_index": 2
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 4
+        },
+        "step_index": 3
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 5
+        },
+        "step_index": 4
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 0,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 6
+        },
+        "step_index": 5
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            0,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 7
+        },
+        "step_index": 6
+      },
+      {
+        "observation": {
+          "agent": [
+            0,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 1,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 3.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 8
+        },
+        "step_index": 7
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 9
+        },
+        "step_index": 8
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 0,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 10
+        },
+        "step_index": 9
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            2,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 1,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 3.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 11
+        },
+        "step_index": 10
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -31.0,
+    "final_info": {
+      "distance": 3.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 12
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            2,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 1,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      },
+      {
+        "observation": {
+          "agent": [
+            2,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            3,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 1,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 3.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 2
+        },
+        "step_index": 1
+      },
+      {
+        "observation": {
+          "agent": [
+            3,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            3,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 4,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 3.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 3
+        },
+        "step_index": 2
+      },
+      {
+        "observation": {
+          "agent": [
+            3,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            3,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 0,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 3.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 4
+        },
+        "step_index": 3
+      },
+      {
+        "observation": {
+          "agent": [
+            3,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            3,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 1,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 3.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 5
+        },
+        "step_index": 4
+      },
+      {
+        "observation": {
+          "agent": [
+            3,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            3,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 0,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 3.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 6
+        },
+        "step_index": 5
+      },
+      {
+        "observation": {
+          "agent": [
+            3,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            3,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 0,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 3.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 7
+        },
+        "step_index": 6
+      },
+      {
+        "observation": {
+          "agent": [
+            3,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            3,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 2.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 8
+        },
+        "step_index": 7
+      },
+      {
+        "observation": {
+          "agent": [
+            3,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            3,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 4,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 3.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 9
+        },
+        "step_index": 8
+      },
+      {
+        "observation": {
+          "agent": [
+            3,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            2,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 3,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 10
+        },
+        "step_index": 9
+      },
+      {
+        "observation": {
+          "agent": [
+            2,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            2,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 0,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 11
+        },
+        "step_index": 10
+      },
+      {
+        "observation": {
+          "agent": [
+            2,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            2,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 3.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 12
+        },
+        "step_index": 11
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -20.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 1
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 0,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -21.0,
+    "final_info": {
+      "distance": 3.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 2
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            2,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 1,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 3.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 2
+        },
+        "step_index": 1
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -20.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 1
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 4,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      }
+    ]
+  },
+  {
+    "success": false,
+    "total_reward": -21.0,
+    "final_info": {
+      "distance": 5.0,
+      "lava_hit": true,
+      "success": false,
+      "steps": 2
+    },
+    "transitions": [
+      {
+        "observation": {
+          "agent": [
+            1,
+            2
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 2,
+        "reward": -1.0,
+        "terminated": false,
+        "truncated": false,
+        "info": {
+          "distance": 4.0,
+          "lava_hit": false,
+          "success": false,
+          "steps": 1
+        },
+        "step_index": 0
+      },
+      {
+        "observation": {
+          "agent": [
+            1,
+            1
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "next_observation": {
+          "agent": [
+            1,
+            0
+          ],
+          "target": [
+            3,
+            3
+          ],
+          "wind": 0
+        },
+        "action": 4,
+        "reward": -20.0,
+        "terminated": true,
+        "truncated": false,
+        "info": {
+          "distance": 5.0,
+          "lava_hit": true,
+          "success": false,
+          "steps": 2
+        },
+        "step_index": 1
+      }
+    ]
+  }
+]

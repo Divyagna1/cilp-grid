@@ -1,0 +1,1 @@
+diesintwo(X,T):-.

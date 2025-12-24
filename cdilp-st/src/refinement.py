@@ -54,7 +54,7 @@ class RefinementGenerator():
         refined_clauses : List[.logic.Clause]
             refined clauses
         """
-        refs = list(set(self.add_atom(clause) + self.apply_func(clause) +
+        refs = list(set(self.add_atom(clause) + #self.apply_func(clause) +
                         self.subs_var(clause) + self.subs_const(clause)))
         result = []
         for ref in refs:

@@ -52,8 +52,7 @@ class WindyGridWorldEnv(SCM):
         """
         Behavior agent's natural policy
         """
-        with open('windy_gridworld_optimal.npy', 'rb') as f:
-            self._policy = np.load(f)
+        self._policy = np.array([[[2, 2, 1, 2, 1], [2, 2, 1, 2, 2], [1, 0, 1, 3, 2]], [[2, 2, 2, 2, 2], [2, 2, 0, 2, 2], [0, 0, 0, 0, 0]], [[2, 2, 2, 2, 3], [2, 2, 3, 2, 2], [3, 0, 3, 2, 2]]])
 
         assert render_mode is None or render_mode in self.metadata["render_modes"]
         self.render_mode = render_mode
@@ -191,6 +190,7 @@ class WindyGridWorldEnv(SCM):
 
         # Finally, add some gridlines
         for x in range(1, self.size + 2):
+            
             pygame.draw.line(
                 canvas,
                 (112, 112, 112),
@@ -198,6 +198,7 @@ class WindyGridWorldEnv(SCM):
                 (self.window_size + offset, pix_square_size * x + offset),
                 width=5,
             )
+
             pygame.draw.line(
                 canvas,
                 (112, 112, 112),

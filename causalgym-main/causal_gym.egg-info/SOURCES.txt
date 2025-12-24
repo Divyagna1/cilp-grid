@@ -10,3 +10,4 @@ causal_gym.egg-info/top_level.txt
 causal_gym/envs/__init__.py
 causal_gym/envs/simple_pacman.py
 causal_gym/envs/windy_gridworld.py
+causal_gym/envs/windy_lava_grid.py

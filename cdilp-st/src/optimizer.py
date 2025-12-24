@@ -23,7 +23,7 @@ class WeightOptimizer():
         self.labels = labels
         self.lr = lr
         self.wd = wd
-        self.batch_size = 0.5
+        self.batch_size = 0.05
         self.bce_loss = torch.nn.BCELoss()
         self.set_optimizer(self.IM.Ws)
 
