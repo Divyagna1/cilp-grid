@@ -112,7 +112,7 @@ class WindyLavaProblem(ILPProblem):
 
     def get_clauses(self):
         clause1 = Clause(
-            Atom(self.preds[0], [Var('X'), Var('T'), Var('W'), Var('T2'), Const('2')]),
+            Atom(self.preds[0], [Var('X'), Var('T'), Var('W'), Var('Y'), Var('Z')]),
             []
         )
         self.clauses = [clause1]
@@ -153,7 +153,7 @@ class WindyLavaProblem(ILPProblem):
             preds=self.preds,
             funcs=[FuncSymbol('f', 0)],
             consts=all_consts,
-            subs_consts=all_consts,
+            subs_consts=[Const('2')],
         )
 
 
