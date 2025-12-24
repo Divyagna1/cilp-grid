@@ -1,0 +1,52 @@
+{
+  "problem": "windy_lava",
+  "mode": "beam",
+  "hyperparams": {
+    "N_max": 50,
+    "T_beam": 5,
+    "N_beam": 10,
+    "epoch": 2000,
+    "lr": 0.01,
+    "wd": 0.0,
+    "m": 2,
+    "T": 4
+  },
+  "evaluation": {
+    "mse": 0.14640575965611885
+  },
+  "auc": 0.6607142857142857,
+  "learned_rules": [
+    "diesintwo(0,0):-.",
+    "diesintwo(0,0):-terminal(0,0).",
+    "diesintwo(0,X):-.",
+    "diesintwo(0,X):-diesintwo(X,0),terminal(0,X),terminal(X,0).",
+    "diesintwo(0,X):-diesintwo(X,0),terminal(0,X).",
+    "diesintwo(0,X):-diesintwo(X,0),terminal(X,0),terminal(0,X).",
+    "diesintwo(0,X):-diesintwo(X,0),terminal(X,0).",
+    "diesintwo(0,X):-diesintwo(X,0).",
+    "diesintwo(0,X):-terminal(0,X),terminal(X,0),diesintwo(X,0).",
+    "diesintwo(0,X):-terminal(0,X),terminal(X,0).",
+    "diesintwo(0,X):-terminal(0,X).",
+    "diesintwo(0,X):-terminal(X,0).",
+    "diesintwo(X,0):-.",
+    "diesintwo(X,0):-diesintwo(0,X),terminal(0,X),terminal(X,0).",
+    "diesintwo(X,0):-diesintwo(0,X),terminal(0,X).",
+    "diesintwo(X,0):-diesintwo(0,X),terminal(X,0),terminal(0,X).",
+    "diesintwo(X,0):-diesintwo(0,X),terminal(X,0).",
+    "diesintwo(X,0):-diesintwo(0,X).",
+    "diesintwo(X,0):-terminal(0,X).",
+    "diesintwo(X,0):-terminal(X,0),terminal(0,X),diesintwo(0,X).",
+    "diesintwo(X,0):-terminal(X,0),terminal(0,X).",
+    "diesintwo(X,0):-terminal(X,0).",
+    "diesintwo(X,T):-.",
+    "diesintwo(X,T):-diesintwo(T,X),terminal(T,X),terminal(X,T).",
+    "diesintwo(X,T):-diesintwo(T,X),terminal(T,X).",
+    "diesintwo(X,T):-diesintwo(T,X),terminal(X,T),terminal(T,X).",
+    "diesintwo(X,T):-diesintwo(T,X),terminal(X,T).",
+    "diesintwo(X,T):-diesintwo(T,X).",
+    "diesintwo(X,T):-terminal(T,X).",
+    "diesintwo(X,T):-terminal(X,T),terminal(T,X),diesintwo(T,X).",
+    "diesintwo(X,T):-terminal(X,T),terminal(T,X).",
+    "diesintwo(X,T):-terminal(X,T)."
+  ]
+}

@@ -26,13 +26,16 @@ class ClauseGenerator():
         max number of atoms in body of clauses
     """
 
-    def __init__(self, ilp_problem, infer_step, max_depth=1, max_body_len=1):
+    def __init__(self, ilp_problem, infer_step, max_depth=1, max_body_len=1,
+                 causal_validator=None, causal_weight=0.0):
         self.ilp_problem = ilp_problem
         self.infer_step = infer_step
         self.rgen = RefinementGenerator(
             lang=ilp_problem.lang, max_depth=max_depth, max_body_len=max_body_len)
         self.max_depth = max_depth
         self.max_body_len = max_body_len
+        self.causal_validator = causal_validator
+        self.causal_weight = causal_weight
         self.bce_loss = torch.nn.BCELoss()
         self.labels = torch.cat([
             torch.ones((len(self.ilp_problem.pos), )),
@@ -238,6 +241,9 @@ class ClauseGenerator():
         probs = torch.tensor([valuation[facts.index(p)]
                               for p in self.ilp_problem.pos]).to(device)
         score = self.bce_loss(probs, self.labels)
+        if self.causal_validator is not None and self.causal_weight > 0.0:
+            causal_score = self.causal_validator(clause)
+            score = score + (self.causal_weight * (-causal_score))
         return score
 
     def get_v_0(self, clause, ilp_problem, facts):
