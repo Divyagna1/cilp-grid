@@ -84,7 +84,7 @@ class RefinementGenerator():
         add p(x_1, ..., x_n) to the body        
         """
         # Check body length
-        if (len(clause.body) >= self.max_body_len) or (len(clause.all_consts()) >= 1):
+        if len(clause.body) >= self.max_body_len:
             return []
 
         refined_clauses = []

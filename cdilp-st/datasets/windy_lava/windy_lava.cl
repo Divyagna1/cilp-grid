@@ -1,1 +1,1 @@
-diesintwo(X,T):-.
+diesintwo(X,T,Y,Z,2):-.

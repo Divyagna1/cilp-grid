@@ -1,0 +1,36 @@
+{
+  "problem": "windy_lava",
+  "mode": "beam",
+  "hyperparams": {
+    "N_max": 50,
+    "T_beam": 5,
+    "N_beam": 10,
+    "epoch": 2000,
+    "lr": 0.01,
+    "wd": 0.0,
+    "m": 2,
+    "T": 4
+  },
+  "evaluation": {
+    "mse": 0.14572279413893932
+  },
+  "auc": 0.5,
+  "learned_rules": [
+    "diesintwo(0,0,0,0,2):-.",
+    "diesintwo(0,0,0,X,2):-.",
+    "diesintwo(0,0,X,0,2):-.",
+    "diesintwo(0,0,X,Y,2):-.",
+    "diesintwo(0,X,0,0,2):-.",
+    "diesintwo(0,X,0,Y,2):-.",
+    "diesintwo(0,X,Y,0,2):-.",
+    "diesintwo(0,X,Y,Z,2):-.",
+    "diesintwo(X,0,0,0,2):-.",
+    "diesintwo(X,0,0,Y,2):-.",
+    "diesintwo(X,0,Y,0,2):-.",
+    "diesintwo(X,0,Y,Z,2):-.",
+    "diesintwo(X,T,Y,Z,2):-.",
+    "diesintwo(X,Y,0,0,2):-.",
+    "diesintwo(X,Y,0,Z,2):-.",
+    "diesintwo(X,Y,Z,0,2):-."
+  ]
+}

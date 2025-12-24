@@ -44,15 +44,26 @@ class WindyLavaProblem(ILPProblem):
         for traj_idx, traj in enumerate(data):
             traj_id = f"tr{traj_idx}"
             terminal_by_t = {}
+            wind_by_t = {}
             for tr in traj.get('transitions', []):
                 t = tr['step_index']
                 terminal_by_t[t] = tr.get('terminated', False)
+                wind_by_t[t] = to_const(tr['observation']['wind'])
             max_t = max(terminal_by_t.keys()) if terminal_by_t else -1
             for t in range(max_t + 1):
                 t2 = t + 2
                 if t2 not in terminal_by_t:
                     continue
-                atom = Atom(self.preds[0], [Const(traj_id), Const(str(t))])
+                wind = wind_by_t.get(t)
+                if wind is None:
+                    continue
+                atom = Atom(self.preds[0], [
+                    Const(traj_id),
+                    Const(str(t)),
+                    Const(str(wind)),
+                    Const(str(t2)),
+                    Const('2'),
+                ])
                 if terminal_by_t[t2]:
                     positives.append(atom)
                 else:
@@ -100,12 +111,15 @@ class WindyLavaProblem(ILPProblem):
                 )
 
     def get_clauses(self):
-        clause1 = Clause(Atom(self.preds[0], [Var('X'), Var('T')]), [])
+        clause1 = Clause(
+            Atom(self.preds[0], [Var('X'), Var('T'), Var('W'), Var('T2'), Const('2')]),
+            []
+        )
         self.clauses = [clause1]
 
     def get_language(self):
         self.preds = [
-            Predicate('diesintwo', 2),
+            Predicate('diesintwo', 5),
             Predicate('windat', 3),
             Predicate('agentat', 4),
             Predicate('lavadistance', 3),
@@ -134,11 +148,12 @@ class WindyLavaProblem(ILPProblem):
                 consts.add(str(t))
         consts.add('2')
         consts.add('0')
+        all_consts = [Const(c) for c in sorted(consts)]
         self.lang = Language(
             preds=self.preds,
             funcs=[FuncSymbol('f', 0)],
-            consts=[Const(c) for c in sorted(consts)],
-            subs_consts=[Const('0')],
+            consts=all_consts,
+            subs_consts=all_consts,
         )
 
 
