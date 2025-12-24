@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: causal_gym
+Version: 0.0.1
+Requires-Dist: gymnasium==0.29.1
+Requires-Dist: pygame==2.5.2
+Dynamic: requires-dist
