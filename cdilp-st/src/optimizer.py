@@ -23,7 +23,7 @@ class WeightOptimizer():
         self.labels = labels
         self.lr = lr
         self.wd = wd
-        self.batch_size = 0.05
+        self.batch_size = 0.5
         self.bce_loss = torch.nn.BCELoss()
         self.set_optimizer(self.IM.Ws)
 
@@ -57,7 +57,8 @@ class WeightOptimizer():
             each dimension represents each example of the ilp problem
         """
         ls = list(range(len(probs)))
-        batch_num = int(len(probs)*self.batch_size)
+        # batch_num = int(len(probs)*self.batch_size)
+        batch_num = max(int(len(probs)*self.batch_size), 1)
         ls_batch = torch.tensor(random.sample(ls, batch_num)).to(device)
         return probs[ls_batch], labels[ls_batch]
 
