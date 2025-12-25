@@ -1,0 +1,51 @@
+{
+  "problem": "windy_lava",
+  "mode": "beam",
+  "hyperparams": {
+    "N_max": 50,
+    "T_beam": 4,
+    "N_beam": 10,
+    "epoch": 2000,
+    "lr": 0.01,
+    "wd": 0.0,
+    "m": 4,
+    "T": 2
+  },
+  "evaluation": {
+    "mse": 6.022675119734501e-10
+  },
+  "auc": 1.0,
+  "learned_rules": [
+    "diesintwo(X,T,W,Y,Z):-.",
+    "diesintwo(X,T,W,Y,Z):-lavadistance(X,T,Y).",
+    "diesintwo(X,T,W,Y,Z):-lavadistance(X,T,Z),terminal(X,Y).",
+    "diesintwo(X,T,W,Y,Z):-lavadistance(X,T,Z),windat(X,T,W).",
+    "diesintwo(X,T,W,Y,Z):-lavadistance(X,T,Z),windat(X,Y,W).",
+    "diesintwo(X,T,W,Y,Z):-lavadistance(X,T,Z),windat(X,Z,W).",
+    "diesintwo(X,T,W,Y,Z):-lavadistance(X,T,Z).",
+    "diesintwo(X,T,W,Y,Z):-lavadistance(X,W,Y).",
+    "diesintwo(X,T,W,Y,Z):-lavadistance(X,W,Z).",
+    "diesintwo(X,T,W,Y,Z):-lavadistance(X,Y,Z).",
+    "diesintwo(X,T,W,Y,Z):-terminal(X,Y).",
+    "diesintwo(X,T,W,Y,Z):-terminal(X,Z).",
+    "diesintwo(X,T,W,Y,Z):-windat(X,T,W),terminal(X,Y).",
+    "diesintwo(X,T,W,Y,Z):-windat(X,T,W),windat(X,Z,W).",
+    "diesintwo(X,T,W,Y,Z):-windat(X,T,W).",
+    "diesintwo(X,T,W,Y,Z):-windat(X,Y,W).",
+    "diesintwo(X,T,W,Y,Z):-windat(X,Z,W),lavadistance(X,T,Z),terminal(X,Y).",
+    "diesintwo(X,T,W,Y,Z):-windat(X,Z,W),lavadistance(X,T,Z),windat(X,T,W).",
+    "diesintwo(X,T,W,Y,Z):-windat(X,Z,W),lavadistance(X,T,Z),windat(X,Y,W).",
+    "diesintwo(X,T,W,Y,Z):-windat(X,Z,W),lavadistance(X,T,Z).",
+    "diesintwo(X,T,W,Y,Z):-windat(X,Z,W),terminal(X,Y),lavadistance(X,T,Z).",
+    "diesintwo(X,T,W,Y,Z):-windat(X,Z,W),terminal(X,Y),windat(X,T,W).",
+    "diesintwo(X,T,W,Y,Z):-windat(X,Z,W),terminal(X,Y),windat(X,Y,W).",
+    "diesintwo(X,T,W,Y,Z):-windat(X,Z,W),terminal(X,Y).",
+    "diesintwo(X,T,W,Y,Z):-windat(X,Z,W),windat(X,T,W),windat(X,Y,W).",
+    "diesintwo(X,T,W,Y,Z):-windat(X,Z,W),windat(X,T,W).",
+    "diesintwo(X,T,W,Y,Z):-windat(X,Z,W),windat(X,Y,W),lavadistance(X,T,Z).",
+    "diesintwo(X,T,W,Y,Z):-windat(X,Z,W),windat(X,Y,W),terminal(X,Y).",
+    "diesintwo(X,T,W,Y,Z):-windat(X,Z,W),windat(X,Y,W),windat(X,T,W).",
+    "diesintwo(X,T,W,Y,Z):-windat(X,Z,W),windat(X,Y,W).",
+    "diesintwo(X,T,W,Y,Z):-windat(X,Z,W)."
+  ]
+}

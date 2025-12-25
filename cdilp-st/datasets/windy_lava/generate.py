@@ -14,7 +14,7 @@ def to_const(value):
 
 
 class WindyLavaProblem(ILPProblem):
-    def __init__(self, json_path, noise_rate=0.0):
+    def __init__(self, json_path, n=50, noise_rate=0.0):
         self.name = "windy_lava"
         self.pos_examples = []
         self.neg_examples = []
@@ -27,14 +27,15 @@ class WindyLavaProblem(ILPProblem):
         self.lang = None
         self.noise_rate = noise_rate
         self.json_path = json_path
+        self.n = n
 
     def get_pos_examples(self):
         positives, _ = self._build_examples()
-        self.pos_examples = positives
+        self.pos_examples = positives[:self.n]
 
     def get_neg_examples(self):
         _, negatives = self._build_examples()
-        self.neg_examples = negatives
+        self.neg_examples = negatives[:self.n]
 
     def _build_examples(self):
         positives = []
@@ -45,24 +46,33 @@ class WindyLavaProblem(ILPProblem):
             traj_id = f"tr{traj_idx}"
             terminal_by_t = {}
             wind_by_t = {}
+            dist_by_t = {}
             for tr in traj.get('transitions', []):
                 t = tr['step_index']
                 terminal_by_t[t] = tr.get('terminated', False)
                 wind_by_t[t] = to_const(tr['observation']['wind'])
+                dist_by_t[t] = to_const(tr['info']['distance'])
             max_t = max(terminal_by_t.keys()) if terminal_by_t else -1
             for t in range(max_t + 1):
-                t2 = t + 2
-                if t2 not in terminal_by_t:
-                    continue
                 wind = wind_by_t.get(t)
                 if wind is None:
+                    continue
+                dist = dist_by_t.get(t)
+                if dist is None:
+                    continue
+                try:
+                    delta = int(float(dist))
+                except ValueError:
+                    continue
+                t2 = t + delta
+                if t2 not in terminal_by_t:
                     continue
                 atom = Atom(self.preds[0], [
                     Const(traj_id),
                     Const(str(t)),
                     Const(str(wind)),
                     Const(str(t2)),
-                    Const('2'),
+                    Const(str(delta)),
                 ])
                 if terminal_by_t[t2]:
                     positives.append(atom)
@@ -159,6 +169,6 @@ class WindyLavaProblem(ILPProblem):
 
 if __name__ == '__main__':
     json_path = '../../../causalrl-main/windy_lava_trajectories.json'
-    problem = WindyLavaProblem(json_path=json_path, noise_rate=0.0)
+    problem = WindyLavaProblem(json_path=json_path, n=50, noise_rate=0.0)
     problem.compile()
     problem.save_problem()

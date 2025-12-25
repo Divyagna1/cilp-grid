@@ -41,7 +41,7 @@ class ClauseGenerator():
             torch.ones((len(self.ilp_problem.pos), )),
         ], dim=0).to(device)
 
-    def generate(self, C_0, gen_mode='beam', T_beam=7, N_beam=20, N_max=100):
+    def generate(self, C_0, gen_mode='beam', T_beam=7, N_beam=20, N_max=100, verbose=True):
         """
         call clause generation function with or without beam-searching
 
@@ -66,11 +66,11 @@ class ClauseGenerator():
             set of generated clauses
         """
         if gen_mode == 'beam':
-            return self.beam_search(C_0, T_beam=T_beam, N_beam=N_beam, N_max=N_max)
+            return self.beam_search(C_0, T_beam=T_beam, N_beam=N_beam, N_max=N_max, verbose=verbose)
         elif gen_mode == 'naive':
             return self.naive(C_0, T_beam=T_beam, N_max=N_max)
 
-    def beam_search_clause(self, clause, T_beam=7, N_beam=20, N_max=100):
+    def beam_search_clause(self, clause, T_beam=7, N_beam=20, N_max=100, verbose=False):
         """
         perform beam-searching from a clause
 
@@ -113,6 +113,11 @@ class ClauseGenerator():
                 C = C.union(set([c]))
                 if len(C) >= N_max:
                     break
+            if verbose:
+                print(f'--- Beam step {step} ---')
+                print(f'Candidates this step: {len(B_new)}')
+                for ref, loss in sorted(B_new.items(), key=lambda x: x[1]):
+                    print(ref, 'loss=', float(loss))
             B_new_sorted = sorted(B_new.items(), key=lambda x: x[1])
             # top N_beam refiements
             B_new_sorted = B_new_sorted[:N_beam]
@@ -124,7 +129,7 @@ class ClauseGenerator():
                 break
         return C
 
-    def beam_search(self, C_0, T_beam=7, N_beam=20, N_max=100):
+    def beam_search(self, C_0, T_beam=7, N_beam=20, N_max=100, verbose=False):
         """
         generate clauses by beam-searching from initial clauses
 
@@ -147,7 +152,7 @@ class ClauseGenerator():
         C = set()
         for clause in C_0:
             C = C.union(self.beam_search_clause(
-                clause, T_beam, N_beam, N_max))
+                clause, T_beam, N_beam, N_max, verbose=verbose))
         C = sorted(list(C))
         print('======= BEAM SEARCHED CLAUSES ======')
         for c in C:

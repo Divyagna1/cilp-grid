@@ -1,0 +1,51 @@
+{
+  "problem": "windy_lava",
+  "mode": "beam",
+  "hyperparams": {
+    "N_max": 50,
+    "T_beam": 4,
+    "N_beam": 10,
+    "epoch": 2000,
+    "lr": 0.01,
+    "wd": 0.0,
+    "m": 2,
+    "T": 2
+  },
+  "evaluation": {
+    "mse": 3.9757226898324513e-10
+  },
+  "auc": 1.0,
+  "learned_rules": [
+    "diesintwo(X,T,W,Y,Z):-.",
+    "diesintwo(X,T,W,Y,Z):-agentat(X,Y,Z,W).",
+    "diesintwo(X,T,W,Y,Z):-stepadd(T,Z,Y).",
+    "diesintwo(X,T,W,Y,Z):-stepadd(W,T,Z).",
+    "diesintwo(X,T,W,Y,Z):-stepadd(W,Z,T).",
+    "diesintwo(X,T,W,Y,Z):-stepadd(Z,T,Y).",
+    "diesintwo(X,T,W,Y,Z):-terminal(X,Y),stepadd(T,Z,Y),windat(X,T,W).",
+    "diesintwo(X,T,W,Y,Z):-terminal(X,Y),stepadd(T,Z,Y),windat(X,Y,W).",
+    "diesintwo(X,T,W,Y,Z):-terminal(X,Y),stepadd(T,Z,Y),windat(X,Z,W).",
+    "diesintwo(X,T,W,Y,Z):-terminal(X,Y),stepadd(T,Z,Y).",
+    "diesintwo(X,T,W,Y,Z):-terminal(X,Y),windat(X,T,W),stepadd(T,Z,Y).",
+    "diesintwo(X,T,W,Y,Z):-terminal(X,Y),windat(X,T,W).",
+    "diesintwo(X,T,W,Y,Z):-terminal(X,Y),windat(X,Y,W).",
+    "diesintwo(X,T,W,Y,Z):-terminal(X,Y),windat(X,Z,W),stepadd(T,Z,Y).",
+    "diesintwo(X,T,W,Y,Z):-terminal(X,Y),windat(X,Z,W),windat(X,T,W).",
+    "diesintwo(X,T,W,Y,Z):-terminal(X,Y),windat(X,Z,W),windat(X,Y,W).",
+    "diesintwo(X,T,W,Y,Z):-terminal(X,Y),windat(X,Z,W).",
+    "diesintwo(X,T,W,Y,Z):-terminal(X,Y).",
+    "diesintwo(X,T,W,Y,Z):-windat(X,T,W).",
+    "diesintwo(X,T,W,Y,Z):-windat(X,Y,W),stepadd(T,Z,Y).",
+    "diesintwo(X,T,W,Y,Z):-windat(X,Y,W),terminal(X,Y).",
+    "diesintwo(X,T,W,Y,Z):-windat(X,Y,W),windat(X,T,W).",
+    "diesintwo(X,T,W,Y,Z):-windat(X,Y,W),windat(X,Z,W).",
+    "diesintwo(X,T,W,Y,Z):-windat(X,Y,W).",
+    "diesintwo(X,T,W,Y,Z):-windat(X,Z,W).",
+    "diesintwo(X,Y,Z,V,2):-.",
+    "diesintwo(X,Y,Z,V,2):-terminal(X,V),stepadd(Y,2,V).",
+    "diesintwo(X,Y,Z,V,2):-terminal(X,V),windat(X,2,Z).",
+    "diesintwo(X,Y,Z,V,2):-terminal(X,V),windat(X,Y,Z).",
+    "diesintwo(X,Y,Z,V,2):-terminal(X,V).",
+    "diesintwo(X,Y,Z,V,2):-windat(X,V,Z)."
+  ]
+}
